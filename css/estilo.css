@@ -83,7 +83,7 @@ header{
     text-decoration: none;
     border: 1px solid #006699;
     padding: 10px 20px 10px 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .Leer-mas:hover{
@@ -104,6 +104,7 @@ header{
     border: 1px solid #ccc;
     float: left;
     padding: 5px;
+    background: #006699;
 }
 
 #der{
@@ -111,4 +112,42 @@ header{
     height: auto;overflow: hidden;
     border: 1px solid #ccc;
     float: right;
+    padding: 5px;
+    text-align: left;
+}
+
+.form-register{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.controls{
+    width: 96%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c0c0c0;
+}
+
+.Validar-Cita{
+    text-decoration: none;
+    border: 1px solid #c0c0c0;
+    padding: 10px 20px 10px 20px;
+}
+
+.Validar-cita:hover{
+    background: #fff;
+    color: #006699;
+    transition: background 1s, color: 1s;
 }
